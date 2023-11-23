@@ -1,0 +1,189 @@
+ @import url('https://fonts.googleapis.com/css2?family=Asap&family=Noto+Serif+Khmer&family=Roboto&display=swap');
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+     /* font-family: 'Asap', sans-serif; */
+     /* font-family: 'Noto Serif Khmer', serif; */
+ }
+
+ nav {
+     width: 0px;
+     height: 100%;
+     top: 0;
+     right: 0;
+     overflow-x: hidden;
+     transition: all 0.5s;
+     z-index: 10;
+ }
+
+ .blog1 {
+     background-color: #3498db;
+ }
+
+ .blog1 center p {
+     border: 2px solid rgba(255, 255, 255, 0.377);
+ }
+
+ .blog1 center p:hover {
+     background-color: rgba(255, 255, 255, 0.377);
+ }
+
+
+ .blog2 {
+    background-color: #fff;
+}
+
+.blog2 .col-span-6 .text {
+    padding-left: 0%;
+    padding-right: 24%;
+}
+
+.blog2 .col-span-6 .text h1,
+.blog2 .col-span-6 .text p span,
+.blog2 .col-span-6 .text .btn {
+    color: #1abc9c;
+}
+
+.blog2 .col-span-6 .text .btn {
+    border: 2px solid rgba(143, 143, 143, 0.377);
+    margin-left: 78%;
+    margin-top: 4%;
+}
+
+.blog2 .col-span-6 .text .btn:hover {
+    background-color: rgba(223, 223, 223, 0.377);
+}
+
+
+ .blog3 {
+     background: #1abc9c;
+ }
+
+ .blog3 .col-span-6 .text {
+     padding-left: 24%;
+     padding-right: 0%;
+ }
+
+ .blog3 .col-span-6 .text h1,
+ .blog3 .col-span-6 .text p span,
+ .blog3 .col-span-6 .text .btn {
+     color: #fff;
+ }
+
+ .blog3 .col-span-6 .text .btn {
+     border: 2px solid rgba(255, 255, 255, 0.377);
+     margin-right: 5%;
+     margin-top: 4%;
+ }
+
+ .blog3 .col-span-6 .text .btn:hover {
+     background-color: rgba(223, 223, 223, 0.377);
+ }
+
+
+ .blog4 {
+     background-color: #fff;
+ }
+
+ .blog4 .col-span-6 .text {
+     padding-left: 0%;
+     padding-right: 24%;
+ }
+
+ .blog4 .col-span-6 .text h1,
+ .blog4 .col-span-6 .text p span,
+ .blog4 .col-span-6 .text .btn {
+     color: #1abc9c;
+ }
+
+ .blog4 .col-span-6 .text .btn {
+     border: 2px solid rgba(143, 143, 143, 0.377);
+     margin-left: 78%;
+     margin-top: 4%;
+ }
+
+ .blog4 .col-span-6 .text .btn:hover {
+     background-color: rgba(223, 223, 223, 0.377);
+ }
+
+ .blog5 {
+     background: #3498db;
+ }
+
+ .blog5 .col-span-6 .text {
+     padding-left: 24%;
+     padding-right: 0%;
+ }
+
+ .blog5 .col-span-6 .text h1,
+ .blog5 .col-span-6 .text p span,
+ .blog5 .col-span-6 .text .btn {
+     color: #fff;
+ }
+
+ .blog5 .col-span-6 .text .btn {
+     border: 2px solid rgba(255, 255, 255, 0.377);
+     margin-right: 5%;
+     margin-top: 4%;
+ }
+
+ .blog5 .col-span-6 .text .btn:hover {
+     background-color: rgba(223, 223, 223, 0.377);
+ }
+
+ .blog6 {
+     background-color: #fff;
+ }
+
+ .blog6 .col-span-6 .text {
+     padding-left: 0%;
+     padding-right: 24%;
+ }
+
+ .blog6 .col-span-6 .text h1,
+ .blog6 .col-span-6 .text p span,
+ .blog6 .col-span-6 .text .btn {
+     color: #9b59b6;
+ }
+
+ .blog6 .col-span-6 .text .btn {
+     border: 2px solid rgba(143, 143, 143, 0.377);
+     margin-left: 78%;
+     margin-top: 4%;
+ }
+
+ .blog6 .col-span-6 .text .btn:hover {
+     background-color: rgba(223, 223, 223, 0.377);
+ }
+
+ .blog7 {
+     background: #9b59b6;
+ }
+
+ .blog7 .col-span-6 .text {
+     padding-left: 24%;
+     padding-right: 0%;
+ }
+
+ .blog7 .col-span-6 .text h1,
+ .blog7 .col-span-6 .text p span,
+ .blog7 .col-span-6 .text .btn {
+     color: #fff;
+ }
+
+ .blog7 .col-span-6 .text .btn {
+     border: 2px solid rgba(255, 255, 255, 0.377);
+     margin-right: 5%;
+     margin-top: 4%;
+ }
+
+ .blog7 .col-span-6 .text .btn:hover {
+     background-color: rgba(223, 223, 223, 0.377);
+ }
+
+ .arrow p:hover{
+    background-color: rgba(223, 223, 223, 0.377);
+ }
