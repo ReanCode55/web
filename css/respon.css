@@ -151,6 +151,148 @@
         font-size: 15px;
         padding: 10px;
     }
+
+    .element{
+        width: 100%;
+        margin: 0px;
+    }
+    .element h1{
+        padding: 30px 10px;
+        font-size: 28px;
+    }
+    .element h2{
+        padding: 30px 10px;
+        font-size: 40px;
+    }
+    .element h3,
+    .element h4,
+    .element h5,
+    .element h6{
+        padding: 20px 10px;
+    }
+    .element p{
+        padding: 10px;
+        font-size: 18px;
+    }
+    pre{
+        width: 100%;
+    }
+    .blog{
+        width: 100%;
+    }
+    .blog .grid{
+        width: 100%;
+        display: inline-block;
+    }
+    .blog .col-span-6 .line{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .blog .grid .col-span-6 ul li{
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .blog .grid .col-span-6 .btn1,
+    .blog .grid .col-span-6 .btn2{
+        padding: 10px;
+        width: 100%;
+        
+    }
+    .blog .grid .col-span-6 .btn1 p,
+    .blog .grid .col-span-6 .btn2 p{
+        width: 30%;
+
+    }
+    .blog .grid .col-span-6 .fab{
+        font-size: 28px;
+    }
+    .blog .btn3{
+        width: 100%;
+        display: inline-block;
+    }
+    .blog .btn3 .one,
+    .blog .btn3 .two,
+    .blog .btn3 .three,
+    .blog .btn3 .four{
+        width: 100%;
+        padding: 10px;
+    }
+    .blog .btn3 .one p,
+    .blog .btn3 .two p,
+    .blog .btn3 .three p,
+    .blog .btn3 .four p{
+        width: 100%;
+    }
+
+    .blog .table th,
+    .blog .table td{
+        font-size: 14px;
+    }
+
+    .blog .button .btn4,
+    .blog .button .btn5,
+    .blog .button .btn6,
+    .blog .button .btn7,
+    .blog .button .btn8{
+        width: 100%;
+        padding: 10px;
+    }
+    .blog .button .btn4 button,
+    .blog .button .btn5 button,
+    .blog .button .btn6 button,
+    .blog .button .btn7 button,
+    .blog .button .btn8 button{
+        width: 30%;
+        font-size: 15px;
+    }
+    .blog .form{
+        padding: 10px;
+    }
+    .blog .form form{
+        display: inline-block;
+    }
+    .blog .form form input{
+        width: 100%;
+    }
+
+    .blog .form .radio,
+    .blog .form .checkbox{
+        display: inline-block;
+        width: 100%;
+    }
+    .blog .form .radio input,
+    .blog .form .checkbox input{
+        width: 8%;
+    }
+    .blog .form .radio .text,
+    .blog .form .checkbox .text{
+        font-size: 15px;
+    }
+    .blog .form .btnsubmit,
+    .blog .form .btnreset{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .blog .imgFit{
+        padding: 10px;
+    }
+
+    .blog .imgFit .image{
+        width: 100%;
+        display: grid;
+    }
+
+    .blog .obj1,
+    .blog .obj2{
+        width: 100%;
+        padding: 10px;
+    }
+    .blog .obj1 p,
+    .blog .obj2 p{
+        font-size: 15px;
+    }
 }
 
 
@@ -306,6 +448,150 @@
     .detail p{
         font-size: 18px;
         padding: 10px;
+    }
+
+    .element{
+        width: 100%;
+        margin: 0px;
+    }
+    .element h1{
+        padding: 30px 10px;
+        font-size: 28px;
+    }
+    .element h2{
+        padding: 30px 10px;
+        font-size: 40px;
+    }
+    .element h3,
+    .element h4,
+    .element h5,
+    .element h6{
+        padding: 20px 10px;
+    }
+    .element p{
+        padding: 10px;
+        font-size: 18px;
+    }
+    pre{
+        width: 100%;
+    }
+    .blog{
+        width: 100%;
+    }
+    .blog .grid{
+        width: 100%;
+        display: inline-block;
+    }
+    .blog .col-span-6 .line{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .blog .grid .col-span-6 ul li{
+        font-size: 18px;
+        padding: 0px 10px;
+    }
+    .blog .grid .col-span-6 .btn1,
+    .blog .grid .col-span-6 .btn2{
+        padding: 10px;
+        width: 100%;
+        
+    }
+    .blog .grid .col-span-6 .btn1 p,
+    .blog .grid .col-span-6 .btn2 p{
+        width: 30%;
+
+    }
+    .blog .grid .col-span-6 .fab{
+        font-size: 28px;
+    }
+    .blog .btn3{
+        width: 100%;
+        display: inline-block;
+    }
+    .blog .btn3 .one,
+    .blog .btn3 .two,
+    .blog .btn3 .three,
+    .blog .btn3 .four{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .blog .btn3 .one p,
+    .blog .btn3 .two p,
+    .blog .btn3 .three p,
+    .blog .btn3 .four p{
+        width: 40%;
+    }
+
+    .blog .table th,
+    .blog .table td{
+        font-size: 14px;
+    }
+
+    .blog .button .btn4,
+    .blog .button .btn5,
+    .blog .button .btn6,
+    .blog .button .btn7,
+    .blog .button .btn8{
+        width: 100%;
+        padding: 10px;
+    }
+    .blog .button .btn4 button,
+    .blog .button .btn5 button,
+    .blog .button .btn6 button,
+    .blog .button .btn7 button,
+    .blog .button .btn8 button{
+        width: 30%;
+        font-size: 15px;
+    }
+    .blog .form{
+        padding: 10px;
+    }
+    .blog .form form{
+        display: inline-block;
+    }
+    .blog .form form input{
+        width: 100%;
+    }
+
+    .blog .form .radio,
+    .blog .form .checkbox{
+        display: inline-block;
+        width: 100%;
+    }
+    .blog .form .radio input,
+    .blog .form .checkbox input{
+        width: 8%;
+    }
+    .blog .form .radio .text,
+    .blog .form .checkbox .text{
+        font-size: 25px;
+    }
+    .blog .form .btnsubmit,
+    .blog .form .btnreset{
+        width: 49%;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .blog .imgFit{
+        padding: 10px;
+    }
+
+    .blog .imgFit .image{
+        width: 100%;
+        display: grid;
+    }
+
+    .blog .obj1,
+    .blog .obj2{
+        width: 100%;
+        padding: 10px;
+    }
+    .blog .obj1 p,
+    .blog .obj2 p{
+        font-size: 15px;
     }
 }
 
